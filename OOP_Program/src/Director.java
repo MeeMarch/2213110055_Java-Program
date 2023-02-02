@@ -13,6 +13,7 @@ public class Director {
 	public Director(String name, String email) {
 		this.name = name;
 		this.email = email;
+		gender = '\u0000';
 	}
 
 	public String getName() {
@@ -29,5 +30,5 @@ public class Director {
 
 	public String toString() {
 		return getName() + " (" + getEmail() + ";" + getGenderName() + ")";
-	}
+	} 
 }

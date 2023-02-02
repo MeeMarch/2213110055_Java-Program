@@ -16,7 +16,7 @@ public class MovieDemo {
 		String email = scan.nextLine();
 		System.out.print("Input director gender : ");
 		char gender = scan.next().toLowerCase().charAt(0);
-		while (gender!='m'&&gender!='f') {
+		while (gender != 'm' && gender != 'f') {
 			System.out.print("Input director gender, again : ");
 			gender = scan.next().charAt(0);
 		}
@@ -30,7 +30,7 @@ public class MovieDemo {
 		}
 
 		System.out.println();
-		Theater theater = new Theater(movieId,movieName,new Director(directorName, email,gender),theaterNo);
+		Theater theater = new Theater(movieId, movieName, new Director(directorName, email, gender), theaterNo);
 		System.out.println(theater);
-}
-}
+	}
+} 

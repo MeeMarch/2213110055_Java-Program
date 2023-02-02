@@ -27,4 +27,4 @@ public class Theater extends Movie {
 	public String toString() {
 		return getTheaterName() + ": " + super.toString();
 	}
-}
+} 

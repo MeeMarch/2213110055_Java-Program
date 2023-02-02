@@ -17,5 +17,4 @@ public class PattanakarnBranch extends Product{
 	public String toString() {
 		return "You buy "+this.payUnit()+" units, get free"+this.freeUnit()+" units ("+this.getTotalprice()+")"; 
 	}
-	
 }

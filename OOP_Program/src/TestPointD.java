@@ -6,6 +6,7 @@ public class TestPointD {
 		System.out.println("Default x,y of Point2D = "+p1);
 		p1.setXY(10, 11);
 		System.out.println("x,y of Point2D = "+p1);
+		
 		//return value of x and y from getXY()
 		System.out.println("x of Point2D is: "+p1.getXY()[0]);
 		System.out.println("y of Point2D is: "+p1.getXY()[1]);

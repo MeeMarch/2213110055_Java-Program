@@ -35,8 +35,7 @@ public class Point3D extends Point2D{
 		results[1] = super.getY();
 		results[2] = this.z;
 		return results;
-	}
-	
+	}	
 	/* Returns String in the form of "(x,y) and z)" */
 	public String toString() {
 		return super.toString()+", and "+getZ();

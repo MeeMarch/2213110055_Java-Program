@@ -43,7 +43,6 @@ public class Point2D {
 		results[1] = this.y;
 		return results;
 	}
-
 	/* Returns String in the form of "(x,y)" */
 	public String toString() {
 		return "(" + getX() + "," + getY() + ")";

@@ -12,5 +12,4 @@ public class Shop100Baht {
 		arnupab.setUnit(Integer.parseInt(JOptionPane.showInputDialog("Input the number of product:")));
 		JOptionPane.showMessageDialog(null, arnupab);
 	}
-
 }

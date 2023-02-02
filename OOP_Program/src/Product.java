@@ -16,5 +16,5 @@ public class Product {
 	
 	public String toString() {
 		return "You buy "+getUnit()+" units ("+getTotalprice()+")";
-	}
+	} 
 }
